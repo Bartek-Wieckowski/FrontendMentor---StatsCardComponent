@@ -28,16 +28,20 @@
     <section class="card section">
       <div class="card__container container grid">
         <article class="card__content">
-          <picture class="card__picture">
-            <source media='(min-width: 569px)' srcset='/images/image-header-desktop.jpg'>
-            <source media='(max-width: 568px)' srcset=/images/image-header-mobile.jpg />
-            <img src="/images/image-header-mobile.jpg" alt="" class="card__img">
-          </picture>
+          <div class="card__picture">
+            <picture>
+              <source media='(min-width: 569px)' srcset='/images/image-header-desktop.jpg'>
+              <source media='(max-width: 568px)' srcset=/images/image-header-mobile.jpg />
+              <img src="/images/image-header-mobile.jpg" alt="" class="card__img">
+            </picture>
+          </div>
 
-          <article class="card__data">
-            <h1 class="card__title">Get <span class="card__title--color">insights</span> that help your business grow.
+          <article class="card__data ">
+            <h1 class="card__data-title">Get <span class="card__data-title--color">insights</span> that help your
+              business grow.
             </h1>
-            <p class="card__description">Discover the benefits of data analytics and make better decisions regarding
+            <p class="card__data-description">Discover the benefits of data analytics and make better decisions
+              regarding
               revenue, customer
               experience, and overall efficiency.</p>
             <div class="card__col">
@@ -52,7 +56,7 @@
               </div>
 
               <div class="card__col-numbers">
-                <h2 class="card__col-numbers--score">12m+</h2>
+                <h2 class="card__col-numbers--score">12M+</h2>
                 <p class="card__col-numbers--text">queries</p>
               </div>
 
