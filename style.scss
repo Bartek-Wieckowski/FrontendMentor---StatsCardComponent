@@ -80,6 +80,7 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    // height: 100vh;
 }
 
 .card {
@@ -128,7 +129,7 @@ img {
     &__col-numbers {
         margin-bottom: var(--mb-2);
         &--text {
-            color: var(--main-description);
+            color: var(--stats-heading);
             text-transform: uppercase;
         }
     }
@@ -137,6 +138,10 @@ img {
 // MEDIA QUERIES
 
 @media screen and (min-width: 768px) {
+    .main {
+        margin-top: 0;
+        height: 100vh;
+    }
     .card {
         &__content {
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));

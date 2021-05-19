@@ -141,11 +141,15 @@ img {
 }
 
 .card__col-numbers--text {
-  color: var(--main-description);
+  color: var(--stats-heading);
   text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
+  .main {
+    margin-top: 0;
+    height: 100vh;
+  }
   .card__content {
     -ms-grid-columns: (minmax(240px, 1fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
